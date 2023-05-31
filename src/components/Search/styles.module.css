@@ -1,0 +1,94 @@
+.Search {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+    url(../../../public/images/bgjpg.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #5d5fef;
+  background: white;
+}
+
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  min-width: 600px;
+  width: 50%;
+  margin: 0 auto;
+  color: #5d5fef;
+  background: white;
+}
+
+h3 {
+  color: #5d5fef;
+  font-size: 38px;
+  margin: 20px 0;
+}
+label {
+  color: #5d5fef;
+}
+form {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+form input {
+  width: 390px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  padding: 0 0 0 10px;
+  outline: none;
+}
+form button {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: white;
+  cursor: pointer;
+}
+form button span {
+  margin: 0;
+  padding: 0;
+}
+
+.sort {
+  margin-top: 20px;
+  width: 430px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+select {
+  height: 30px;
+  outline: none;
+  padding-right: 5px;
+}
+
+.search_input {
+  border-bottom: 1px #5d5fef solid;
+  color: #5d5fef;
+}
+.search_input::-webkit-input-placeholder {
+  color: #5d5fef;
+}
+select {
+  color: #5d5fef;
+  border-color: #5d5fef;
+}
+label {
+  display: flex;
+  align-items: center;
+}

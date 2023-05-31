@@ -1,0 +1,30 @@
+.wrapper {
+  width: 300px;
+  height: 450px;
+  background: #f1f1f1;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  border-radius: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  width: 60%;
+  height: 300px;
+  margin-top: 10px;
+}
+.title,
+.autor {
+  color: #5d5fef;
+  font-weight: 100;
+  width: 90%;
+  margin: 10px;
+}
+.about {
+  color: #5d5fef;
+  font-weight: bold;
+  font-size: 1.1em;
+  width: 90%;
+  margin: 0;
+}
